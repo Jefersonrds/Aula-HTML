@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		
+		<title>Quiz para programadores</title>	
+		<meta name="description" content="Um quiz interativo para testar o seus conhecimentos.">	
+
+	</head>
+	
+	<body>
+		<header> 
+			<h1> Quiz para programadores </h1
+			<p> Teste o seu conhecimento em programacao e veja qual pontuação você consegue fazer </p>
+			
+		</header>
+		<main> 
+			</-- Introdução -->
+			<section>
+				<h2>Sobre esse quiz</h2>
+				<p><strong>Este quiz</strong> foi desenvolvido para testar seus conhecimentos em programação, como <em>linguagens de programação</em>, conceitos básicos e mais.</p>
+				<p>Você encontrará diferentes tipos de perguntas, incluindo múltipla escolha, texto e perguntas de data. <br> Desafie-se com este quiz!</p>
+				<p>Você poderá encontrar alguns acrônimos com <abbr title ="Hypertext Markup Language">HTML</abbr> e <abbr title ="Cascading Style Sheets">CSS</abbr>, que são comumente usados em questões relacionadas ao desenvovimento web.</p>
+			</section>
+			</-- Pergunta 1: múltipla escolha-->
+			<section>
+				<h2> Pergunta 1: Qual a linguagem é usada para estruturar páginas web?</h2>
+				<form>
+					<input type="radio" value=Python id="p1a" name="pergunta1">
+					<label for="p1a"> Python </label> <br>
+
+					<input type="radio" value=C-sharp id="p1b" name="pergunta1">
+					<label for="p1b"> C-sharp </label> <br>
+
+					<input type="radio" value=HTML id="p1c" name="pergunta1">
+					<label for="p1c"> HTML </label> <br>
+
+					<input type="radio" value=JAVA id="p1d" name="pergunta1">
+					<label for="p1d"> JAVA </label>	 <br>					
+
+					<input type="radio" value=Cobol id="p1e" name="pergunta1">
+					<label for="p1e"> Cobol </label><br>
+				</form>								
+			</section>
+	
+			</-- Pergunta 2: Texto-->
+			<section>
+				<h2> Perguta 2: ha URL http://www.google.com o trecho "google.com" é o ___</h2>
+				<form>
+					<input type="text" id="p2" name="pergunta2" placeholder="Digite sua resposta...">
+					
+				</form>
+			</section
+
+			<-- Pergunta 3: Senha-->			
+			<section>
+				<h2> Pergunta 3: Escreva um exemplo de senha forte</h2>
+
+				<form>
+					<input type="password" id="p3" name="pergunta3" placeholder="Digite uma senha...">
+				</form>
+			
+			</section>
+
+            </-- Pergunta 4: Data-->			
+			<section>
+				<h2> Pergunta 4: Em que ano o HTML lançou sua primeira versão</h2>
+
+				<form>
+					<input type="date" id="p4" name="pergunta4">
+				</form>
+			
+			</section>
+
+			</-- Pergunta 5: Seleção multipla-->			
+			<section>
+				<h2> Pergunta 5: Quais dessas tecnologias são consideradas linguagens de programação</h2>
+
+				<form>
+					<input type="checkbox" value=JAVA id="p5a" name="pergunta5">
+					<label for="p5a"> JAVA </label>	 <br>
+
+					<input type="checkbox" value=Python id="p5b" name="pergunta5">
+					<label for="p5b"> Python </label>	 <br>
+
+					<input type="checkbox" value=HTML id="p5c" name="pergunta5">
+					<label for="p5c"> HTML </label>	 <br>
+
+					<input type="checkbox" value=Robson id="p5d" name="pergunta5">
+					<label for="p5d"> Robson </label>	 <br>
+				</form>
+			
+			</section>
+
+			</-- Pergunta 6: Upload de arquivo-->			
+			<section>
+				<h2> Pergunta 6: Faça um upload de arquivo contendo código HTML</h2>
+
+				<form>
+					<input type="file" id="p6" name="pergunta6">
+				</form>
+			
+			</section>
+
+			</-- Pergunta 7: Menu suspenso-->			
+			<section>
+				<h2> Pergunta 7: Selecione o atributo do input que define o seu tipo:</h2>
+
+				<form>
+					<select  name="pergunta7" id="p7">
+						<option value="id"> id </option>
+						<option value="input"> input </option>
+						<option value="file"> file </option>
+						<option value="checkbox"> checkbox </option>
+					</select>	 <br>
+				</form>
+			
+			</section>
+
+			</-- Pergunta 8: Imagem-->			
+			<section>
+				<h2> Pergunta 8: Qual a linguagem de programação é representada pelo logotipo abaixo?</h2>
+				<figure>
+					<img src="JAVA.png" alt="Logotipo de imagem de uma linguagem de programação" width="100p"><br>
+					<figcaption> Figura 1: Logotipo de imagem de uma linguagem de programação</figcaption>
+				</figure>
+				<input type="tex" id="p8" name="pergunta8" placeholder="Digite sua resposta...">	
+			</section>
+
+
+
+
+			</-- Tabela de pontuação -->
+			<section>
+				<h2> Tabela de pontuação</h2>
+				<table border="1"> 
+                    <thead>
+                        <tr>
+							<th> Pontuação</th>
+							<th>Avaliação</th>
+						</tr>
+                    </thead>
+                    <tbody>
+                        <tr> </-- table row -->
+                            <td>0-2 </td> </-- table data -->
+                            <td>Não desista! Cada tentativa é uma oportunidade de você aprender.</td>
+                        </tr> 
+                        <tr> </-- table row -->
+                            <td>3-4 </td> </-- table data -->
+                            <td>Você ainda precisa melhorar. Que tal estudar mais sobre programação?</td>
+                        </tr> 
+                        <tr> </-- table row -->
+                            <td>5-7 </td> </-- table data -->
+                            <td>Você pode melhorar estes estudo.</td>
+                        </tr> 
+                        <tr> </-- table row -->
+                            <td>8 </td> </-- table data -->
+                            <td>Você arrasou, meus parabens</td>
+                        </tr> 
+                    
+                    </tbody>
+					<tfoot> 
+						<tr>
+							<td colspan="2"> Boa sorte na próxima! Uma criança seria melhor.</td>
+						</tr>
+					</tfoot>
+				</table>
+			</section>
+		</main>
+		<footer> </footer>
+	</body>
+	
+	
+</html>

@@ -1,3 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+/*Configurações gerais*/
 
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*Estilizando o cabeçalho*/
+header {
+	
+	padding: 1rem;
+        background-color: #331f19;
+        text-align: center;
+	color: white;
+	
+}
+
+/*Estilizando o corpo*/
+body {
+        background-color: #EAE3DC;
+        color: #331f19;
+        font-family: "Cabin", sans-serif;
+        font-weight: 400;
+
+}
+/******************/
+
+
+/* Alterando a main */
+main{	
+	padding-top: 0.5rem;
+	padding-left: 0.5rem;
+}
+
+p{
+	margin-top: 1rem;
+}
+
+h2{
+	margin-top: 1.2rem;	
+}
+
+h3 {
+	margin: 1rem 0rem 1rem;
+}
+
+footer {
+	margin-top: 1rem;
+    text-decoration: none;
+}

@@ -125,5 +125,42 @@ ol li {
 }
 
 fildset{
-	border: 2px solic #CCD595
+	border: 2px solic #CCD595;
+	border-radius: 5px;
+	padding: 1rem;
+}
+legend{
+	color: #331F19;
+	padding: 0 0.5rem;
+}
+
+textarea{
+	background-color: transparent;
+	outline: none;
+	border-radius: 5px;
+	border: 2px solid #CCD595;
+}
+
+button{
+	background-color: #CCD595;
+	border: none;
+	padding: 0.8rem;
+	color: #331F19;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+footer{
+	background-color: #331F19;
+}
+
+.paragrafo-footer{
+	color: #f4f0f4;
+	padding: 1rem;
+	text-align: center;
+}
+
+footer a {
+	text-decoration: none;
+	color: #CCD959;
 }
